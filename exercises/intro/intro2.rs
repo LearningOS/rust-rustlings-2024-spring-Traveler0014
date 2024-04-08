@@ -7,6 +7,6 @@
 
 
 fn main() {
-    let greeting = "world";
+    let greeting = String::from("world");
     println!("Hello {greeting}!");
 }
